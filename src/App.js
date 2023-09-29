@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import UserClass from "./userClass";
+import Header from './component/cards/Index';
 
 function App() {
   return (
     <div className="App">
-      <UserClass />
+      <Header />
     </div>
   );
 }
